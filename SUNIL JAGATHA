@@ -1,0 +1,10 @@
+sno=int(input("enter the student rollnumber:"))
+sname=(input("enter the student name:"))
+sgroup=(input("enter the group"))
+sub1=int(input("enter java marks:"))
+sub2=int(input("enter os marks:"))
+sub3=int(input("enter afm marks:"))
+if sub1>=35 and sub2>=35 and sub3>=35:
+              print("all subjects are passed")
+else:
+    print("failed")
